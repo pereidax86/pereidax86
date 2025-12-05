@@ -40,7 +40,7 @@
 
 ### 🌱 Currently
 > **Learning:** CISSP & Advanced Red Teaming  
-> **Working on:** [sysadminctl.services](https://sysadminctl.services)
+> **Working as:** Application Security and Risk Management Specialist
 
 <br/>
 
