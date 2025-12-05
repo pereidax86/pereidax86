@@ -23,6 +23,8 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: push-github-contribution-grid-snake-svg-to-output-branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
@@ -30,4 +32,5 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
+          # Para empujar el archivo, el token normal sigue sirviendo bien
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
