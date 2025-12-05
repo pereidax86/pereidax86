@@ -101,6 +101,7 @@
 
 <br/>
 
+<br/>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pereidax86&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=3b82f6&icon_color=9333ea&text_color=d1d5db" alt="Luis Pereida's GitHub stats" />
+  <img src="https://raw.githubusercontent.com/pereidax86/pereidax86/output/github-contribution-grid-snake-dark.svg" alt="Snake animation for github stats" />
 </div>
