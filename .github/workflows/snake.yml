@@ -1,23 +1,31 @@
 name: Generate Snake
 
 on:
+  # Se ejecuta cada domingo a medianoche
   schedule:
-    - cron: "0 0 * * 0"
+    - cron: "0 0 * * 0" 
+  
+  # Permite ejecutarlo manualmente desde la pestaña Actions
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@v2
+      - uses: actions/checkout@v3
+
+      - name: generate-snake-game-from-github-contribution-grid
+        uses: Platane/snk/svg-only@v3
         with:
-          # El nombre de usuario de GitHub
-          github_user_name: pereidax86
-          # Genera la serpiente en modo oscuro (palette)
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+
+      - name: push-github-contribution-grid-snake-svg-to-output-branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
