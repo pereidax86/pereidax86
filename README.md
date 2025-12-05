@@ -33,6 +33,7 @@
   <img src="https://img.shields.io/badge/AI-Automation-3b82f6?style=flat-square&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/Podman-Containers-892CA0?style=flat-square&logo=podman&logoColor=white"/>
   <img src="https://img.shields.io/badge/Astro-Web-FF5D01?style=flat-square&logo=astro&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
 
 </div>
 
@@ -46,13 +47,51 @@
 
 ### 🏆 Certifications
 <div align="center">
-  <a href="https://aspen.eccouncil.org/Verify" target="_blank"><img src="./badges/CEH_2E345519D3F7.png" height="100" alt="CEH"/></a>
-  &nbsp;&nbsp;
-  <a href="https://www.credly.com/users/luis-pereida" target="_blank"><img src="./badges/rhcsa.png" height="90" alt="RHCSA"/></a>
-  &nbsp;&nbsp;
-  <a href="https://www.credly.com/users/luis-pereida" target="_blank"><img src="./badges/rh-virtualization.png" height="90" alt="RH Virtualization"/></a>
-  &nbsp;&nbsp;
-  <a href="https://www.credly.com/users/luis-pereida" target="_blank"><img src="./badges/ibm-cloud.png" height="90" alt="IBM Cloud"/></a>
+  
+  <a href="https://aspen.eccouncil.org/Verify" target="_blank">
+    <img src="./badges/CEH_2E345519D3F7.png" height="120" alt="Certified Ethical Hacker"/>
+  </a>
+  <br/>
+  <strong>Certified Ethical Hacker</strong>
+  <br/>
+  <code>ID: ECC3657809142</code>
+  
+  <br/><br/>
+
+  <table border="0">
+    <tr>
+      <td align="center">
+        <a href="https://www.credly.com/badges/6701c173-e710-4c21-800a-ac6086ef59c1/public_url" target="_blank">
+          <img src="./badges/rhcsa.png" height="95" alt="RHCSA"/>
+        </a>
+        <br/>
+        <small>RedHat Certified<br/>System Administrator</small>
+      </td>
+      <td align="center">
+        <a href="https://www.credly.com/badges/99a80d64-5d22-4944-bcf3-0e477eece1e6/public_url" target="_blank">
+          <img src="./badges/rh-virtualization.png" height="95" alt="RH Virtualization"/>
+        </a>
+        <br/>
+        <small>RedHat Certified Specialist<br/>Virtualization</small>
+      </td>
+      <td align="center">
+        <a href="https://www.credly.com/badges/4f5dd55a-d796-44ad-af8d-d44f63ed4daa/public_url" target="_blank">
+          <img src="./badges/rh-containers.png" height="95" alt="RH Containers"/>
+        </a>
+        <br/>
+        <small>RedHat Certified Specialist<br/>Containers</small>
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <a href="https://www.credly.com/badges/6cb65f66-7a49-473f-a9cd-7015c12c4e05/public_url" target="_blank">
+    <img src="./badges/ibm-cloud.png" height="95" alt="IBM Cloud Advocate"/>
+  </a>
+  <br/>
+  <small>IBM Cloud Advocate v2</small>
+
 </div>
 
 <br/>
